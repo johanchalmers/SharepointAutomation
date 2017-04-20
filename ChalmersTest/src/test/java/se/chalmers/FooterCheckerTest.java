@@ -40,7 +40,7 @@ public class FooterCheckerTest {
 		wait.until(ExpectedConditions.titleContains("Chalmers tekniska högskola"));
 		// Waits & Verifys for the 4 different h4 in the footer
 		wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector(".list.footer>h4")));
-		// Clicks on Energi under Styrkeomr�den-h4
+		// Clicks on Energi under Styrkeområden-h4
 		driver.findElement(By.xpath(".//*[@id='s4-bodyContainer']/footer/div/div[2]/div[1]/ul/li[1]/a")).click();
 		
 		// Waits for h3 Energi on their landing page
